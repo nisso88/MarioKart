@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76626d16-8530-4489-8104-2c06004f3f8d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/jeu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jeu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,8 +34,8 @@
       <file leaf-file-name="jeu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/jeu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="45" column="97" selection-start-line="45" selection-start-column="97" selection-end-line="45" selection-end-column="97" />
+            <state relative-caret-position="444">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1549#1550#0" expanded="true" />
@@ -564,21 +564,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="jeu_test - 2018.07.10 at 16h 24m 36s.xml">
-      <configuration name="jeu.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="jeu_test - 2018.07.10 at 16h 32m 55s.xml">
-      <configuration name="jeu.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="jeu_test - 2018.07.10 at 16h 39m 36s.xml">
-      <configuration name="jeu.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="jeu_test - 2018.07.10 at 16h 40m 25s.xml">
-      <configuration name="jeu.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="jeu_test - 2018.07.10 at 16h 42m 34s.xml">
-      <configuration name="jeu.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="jeu_test - 2018.07.10 at 16h 50m 22s.xml">
       <configuration name="jeu.test" configurationId="JUnit" />
     </history-entry>
@@ -592,6 +577,21 @@
       <configuration name="jeu.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="jeu_test - 2018.07.10 at 16h 59m 12s.xml">
+      <configuration name="jeu.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jeu_test - 2018.07.10 at 16h 59m 49s.xml">
+      <configuration name="jeu.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jeu_test - 2018.07.10 at 17h 06m 37s.xml">
+      <configuration name="jeu.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jeu_test - 2018.07.10 at 17h 07m 02s.xml">
+      <configuration name="jeu.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jeu_test - 2018.07.10 at 17h 08m 16s.xml">
+      <configuration name="jeu.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jeu_test - 2018.07.10 at 17h 08m 41s.xml">
       <configuration name="jeu.test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -647,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/jeu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="45" column="97" selection-start-line="45" selection-start-column="97" selection-end-line="45" selection-end-column="97" />
+        <state relative-caret-position="444">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1549#1550#0" expanded="true" />

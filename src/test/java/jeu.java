@@ -41,12 +41,15 @@ public class jeu {
         WebElement NintendoSwitch = driver.findElement(By.linkText("Nintendo Switch"));
         NintendoSwitch.click();
 
-
-       // WebElement catjeux = driver.findElement(By.cssSelector("#anonCarousel1>.acs_tile--1"));
         WebElement catjeux = driver.findElement(By.xpath("//*[@id=\"anonCarousel1\"]/ol/li[2]/div"));
         actions.moveToElement(catjeux).build().perform();
         catjeux.click();
 
+
+        WebElement N1ventes = driver.findElement(By.id("result_0"));
+        actions.moveToElement(N1ventes).build().perform();
+        N1ventes.click();
+        
 
     }
 
