@@ -25,11 +25,13 @@ public class jeu {
 
     @Test
     public void test(){
-        WebElement categories = driver.findElement(By.id("nav-shop"));
 
         Actions actions = new Actions(driver);
+
+        WebElement categories = driver.findElement(By.id("nav-shop"));
         actions.moveToElement(categories);
         actions.build().perform();
+
         WebElement livres = driver.findElement(By.cssSelector("span[data-nav-panelkey='VideogamesConsolesPanel']"));
         actions.moveToElement(livres).build().perform();
 
@@ -37,8 +39,14 @@ public class jeu {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#nav-flyout-shopAll>.nav-subcats")));
 
         WebElement NintendoSwitch = driver.findElement(By.linkText("Nintendo Switch"));
-
         NintendoSwitch.click();
+
+
+       // WebElement catjeux = driver.findElement(By.cssSelector("#anonCarousel1>.acs_tile--1"));
+        WebElement catjeux = driver.findElement(By.xpath("//*[@id=\"anonCarousel1\"]/ol/li[2]/div"));
+        actions.moveToElement(catjeux).build().perform();
+        catjeux.click();
+
 
     }
 
