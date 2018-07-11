@@ -19,9 +19,7 @@ public class jeu {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.amazon.fr/");
-
     }
-
 
     @Test
     public void test(){
@@ -46,9 +44,11 @@ public class jeu {
         catjeux.click();
 
 
-        WebElement N1ventes = driver.findElement(By.id("result_0"));
+        WebElement N1ventes = driver.findElement(By.cssSelector("h2[data-attribute=\"Mario Kart 8 Deluxe\"]"));
         actions.moveToElement(N1ventes).build().perform();
         N1ventes.click();
+
+
         
 
     }
